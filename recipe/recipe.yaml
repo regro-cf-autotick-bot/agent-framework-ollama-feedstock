@@ -24,7 +24,7 @@ requirements:
     - uv-build
   run:
     - python >=${{ python_min }}
-    - agent-framework-core <2,>=1.4.0
+    - agent-framework-core <2,>=1.6.0
     - ollama-python <0.5.4,>=0.5.3
 
 tests:
