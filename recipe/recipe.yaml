@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "1.0.0b260521"
+  version: "1.0.0b260630"
   python_min: "3.10"
 
 package:
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/a/agent-framework-ollama/agent_framework_ollama-${{ version }}.tar.gz
-  sha256: 80041cae1220ce6cc8774985e37f4810e12fd2d732da81304aa500da57c3bafa
+  sha256: 46749c4be6fed8afae4d163853e965092cd17812872257d40ee0f7a8d69ec8d3
 
 build:
   noarch: python
